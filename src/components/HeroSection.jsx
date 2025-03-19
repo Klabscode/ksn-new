@@ -98,7 +98,7 @@ const LuxuryHeroSection = () => {
       {/* Main Hero Slider */}
       <div 
         ref={sliderRef}
-        className="relative h-screen w-full"
+        className="relative w-full h-[660px] overflow-hidden"
       >
         {/* Slides Container */}
         <div className="h-full">

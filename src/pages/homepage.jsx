@@ -96,8 +96,8 @@ const HomePage = () => {
       {/* Reduced padding-top for mobile, kept original for md and up */}
       <HeroSection />
       <ServicesSection />
-      <PartnersShowcase />
-      <GlobalReachMap/>
+
+  
       
       <WelcomeModal
         isOpen={isModalOpen}

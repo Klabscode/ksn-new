@@ -134,7 +134,7 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
       {/* Main navbar - with orange background (changed from white) */}
-      <div className={`bg-gradient-to-r from-amber-600 via-amber-500 to-amber-600 transition-all duration-300 ${
+      <div className={`bg-gradient-to-r from-green-600 via-green-500 to-green-400 transition-all duration-300 ${
         scrolled ? 'shadow-lg py-2' : 'shadow-md py-3'
       }`}>
         <div className="container mx-auto max-w-7xl px-4 lg:px-6">
@@ -232,12 +232,12 @@ const Navbar = () => {
                         language === 'tamil' ? 'text-sm' : ''
                       } ${
                         location.pathname === item.path 
-                          ? 'text-black bg-green-300 shadow-sm' 
-                          : 'text-gray-800 hover:bg-green-50'
+                          ? 'text-black bg-indigo-300 shadow-sm' 
+                          : 'text-gray-800 hover:bg-indigo-50'
                       }`}
                     >
                       <Icon size={16} strokeWidth={2} className={`mr-1 flex-shrink-0 ${
-                        location.pathname === item.path ? 'text-green-700' : 'text-gray-600'
+                        location.pathname === item.path ? 'text-indigo-700' : 'text-gray-600'
                       }`} />
                       <span>{item.name}</span>
                     </Link>
